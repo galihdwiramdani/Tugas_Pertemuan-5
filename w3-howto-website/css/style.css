@@ -278,7 +278,7 @@ code {
    FOOTER
 ================================ */
 .main-footer {
-  background-color: #282727;
+  background-color: #282A35;
   color: #ffffff;
   font-family: var(--font);
   padding: 40px 0;
@@ -307,17 +307,19 @@ code {
   color: #fff;
 }
 
-.footer-logo {
-  color: #fff !important;
-  font-size: 24px !important;
-  font-weight: bold;
-  font-family: var(--head);
-  text-transform: lowercase;
+.logo img {
+      height: 30px;
+      width: auto;
+      display: block;
+      filter: brightness(0) invert(1);
+      transition: filter 0.3s ease;
 }
 
-.footer-logo span {
-  font-size: 18px;
+.logo img:hover {
+      filter: brightness(0) invert(45%) sepia(87%) saturate(1143%) hue-rotate(126deg) brightness(94%) contrast(99%)
 }
+
+
 
 /* Container utama */
 .footer-container {
@@ -357,7 +359,7 @@ code {
 }
 
 .footer-column a:hover {
-  color: #04aa6d;
+  color: #d3e50c;
   text-decoration: underline;
 }
 
@@ -372,7 +374,7 @@ code {
 
 /* Garis dan Footer Bottom */
 .footer-bottom {
-  border-top: 1px solid #555;
+  border-top:none
   max-width: 1300px;
   margin: 0;
   padding: 30px 0;
@@ -386,14 +388,14 @@ code {
 
 .footer-links a {
   color: #ffffff;
-  font-size: 13px;
+  font-size: 20px;
   text-decoration: none;
   margin: 0 12px;
   font-weight: 600;
 }
 
 .footer-links a:hover {
-  color: #04aa6d;
+  color: #eaff09;
 }
 
 /* Deskripsi */
@@ -405,11 +407,51 @@ code {
   max-width: 750px;
 }
 
+.footer-bottom p a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-bottom p a:hover {
+  color: #eaff09;
+  text-decoration: none;
+}
+
 /* Copyright */
 .footer-bottom .copyright {
   margin-top: 20px;
   color: #888;
   font-size: 12px;
+}
+
+/* Social media */
+.social-links {
+  display: flex;
+  justify-content: center;
+  /* Tambahan agar logo rata tengah */
+  gap: 10px;
+  margin-bottom: 25px;
+  /* Mengubah margin agar ada jarak dengan teks di bawahnya */
+}
+
+.social-links a {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #04aa6d;
+  color: white;
+  text-decoration: none;
 }
 
 /* ================================
