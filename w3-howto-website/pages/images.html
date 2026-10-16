@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Images - HowToLab</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand-row">
+    <button id="menuBtn" type="button" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
+    <a class="logo" href="../index.html">HowTo<span>Lab</span></a>
+    <input id="search" class="search" type="search" placeholder="Search tutorials..." aria-label="Search tutorials">
+    <a class="login" href="forms.html">Log in</a>
+  </div>
+  <nav class="nav-row" aria-label="Kategori"><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">HTML</a><a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">CSS</a><a href="https://www.w3schools.com/js/" target="_blank" rel="noopener">JavaScript</a><a href="https://www.w3schools.com/sql/" target="_blank" rel="noopener">SQL</a><a href="https://www.w3schools.com/python/" target="_blank" rel="noopener">Python</a><a class="active" href="../index.html">How To</a></nav>
+</header>
+<div class="layout">
+<aside class="sidebar" aria-label="Daftar tutorial">
+  <h2>HOW TO</h2>
+  <a href="../index.html">HowTo Home</a>
+  <h3>Menus</h3>
+  <a href="navigation.html">Top Navigation</a>
+  <a href="menus.html">Hover Dropdowns</a>
+  <h3>Images</h3>
+  <a href="images.html" class=active>Responsive Images</a>
+  <h3>Buttons</h3>
+  <a href="buttons.html">Alert Buttons</a>
+  <h3>Forms</h3>
+  <a href="forms.html">Login Form</a>
+  <h3>Grid</h3>
+  <a href="responsive.html">Responsive Columns</a>
+</aside>
+<main>
+<h1>How To <span class="hl">- Responsive Images</span></h1>
+<div class="pn"><a class="btn" href="menus.html">&#10094; Previous</a><a class="btn" href="buttons.html">Next &#10095;</a></div>
+<hr>
+<p>Galeri gambar yang menyesuaikan lebar layar.</p>
+<p>Flexbox dengan flex-wrap membuat gambar turun ke baris baru saat layar sempit. max-width:100% mencegah gambar keluar dari wadahnya.</p>
+<div class="example">
+  <h3>Example</h3>
+  <pre><code>&lt;!DOCTYPE html&gt;
+&lt;style&gt;
+.gallery{display:flex;flex-wrap:wrap;gap:8px}
+.gallery img{flex:1 1 150px;max-width:100%;height:auto;border-radius:4px}
+.gallery img:hover{opacity:.8}
+&lt;/style&gt;
+&lt;div class=&quot;gallery&quot;&gt;
+  &lt;img src=&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; width=&#x27;300&#x27; height=&#x27;200&#x27;%3E%3Crect width=&#x27;300&#x27; height=&#x27;200&#x27; fill=&#x27;%2304AA6D&#x27;/%3E%3C/svg%3E&quot; alt=&quot;Hijau&quot;&gt;
+  &lt;img src=&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; width=&#x27;300&#x27; height=&#x27;200&#x27;%3E%3Crect width=&#x27;300&#x27; height=&#x27;200&#x27; fill=&#x27;%232196F3&#x27;/%3E%3C/svg%3E&quot; alt=&quot;Biru&quot;&gt;
+  &lt;img src=&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; width=&#x27;300&#x27; height=&#x27;200&#x27;%3E%3Crect width=&#x27;300&#x27; height=&#x27;200&#x27; fill=&#x27;%23ff9800&#x27;/%3E%3C/svg%3E&quot; alt=&quot;Oranye&quot;&gt;
+&lt;/div&gt;</code></pre>
+  <p><button class="btn copy" type="button">Copy Code</button> <button class="btn try" type="button">Try it Yourself &raquo;</button></p>
+  <div class="editor" hidden>
+    <textarea spellcheck="false" aria-label="Edit kode"></textarea>
+    <p><button class="btn run" type="button">Run &raquo;</button></p>
+  </div>
+  <iframe sandbox="allow-scripts" title="Hasil: Responsive Images" style="height:250px"></iframe>
+</div>
+<hr>
+<div class="pn"><a class="btn" href="menus.html">&#10094; Previous</a><a class="btn" href="buttons.html">Next &#10095;</a></div>
+</main>
+</div>
+<footer>
+  <div class="fcols">
+    <div><h4>Tutorials</h4><a href="navigation.html">Top Navigation</a><a href="menus.html">Hover Dropdowns</a><a href="images.html">Responsive Images</a><a href="buttons.html">Alert Buttons</a><a href="forms.html">Login Form</a><a href="responsive.html">Responsive Columns</a></div>
+    <div><h4>Referensi</h4><a href="https://www.w3schools.com/howto/default.asp" target="_blank" rel="noopener">W3Schools How To</a><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></div>
+    <div><h4>Tentang</h4><p>HowToLab adalah proyek belajar HTML &amp; CSS dengan contoh kode yang bisa disalin dan dicoba.</p></div>
+  </div>
+  <p class="copy-line">&copy; 2026 HowToLab. Proyek belajar, bukan situs resmi W3Schools.</p>
+</footer>
+<script src="../js/script.js"></script>
+</body>
+</html>
