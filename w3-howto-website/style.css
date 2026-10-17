@@ -165,9 +165,21 @@ hr {
 .side-home-active{
   background-color:#e0e0e0;
   color:#000;
-  border-left: 2px solid rgba(12, 241, 4, 0.667);
-    font-size: 14px;
-    font-weight: 670;
+  border-left: 2px solid rgba(73, 74, 73, 0.667);
+  font-size: 14px;
+  font-weight: 670;
+  margin-left: 5px;
+  display: block;
+}
+
+.side-home-active:hover{
+  background-color:#e0e0e0;
+  color:#000;
+  border-left: 2px solid rgba(4, 249, 4, 0.667);
+  font-size: 14px;
+  font-weight: 670;
+  margin-left: 5px;
+  display: block;
 }
 
 .side-search {
@@ -192,6 +204,26 @@ hr {
   letter-spacing: 2px;
 }
 
+.side-links a {
+  background-color: #e0e0e0;
+  color: #000;
+  border-left: 2px solid rgba(73, 74, 73, 0.667);
+  font-size: 14px;
+  font-weight: 200;
+  margin-left: 5px;
+  line-height: 1.1;
+  display: block;
+}
+
+.side-links a:hover {
+  background-color: #e0e0e0;
+  color: #000;
+  border-left: 2px solid rgba(4, 249, 4, 0.667);
+  font-size: 14px;
+  font-weight: 670;
+  margin-left: 5px;
+  display: block;
+}
 .sidebar {
   flex: 0 0 var(--side-w);
   width: var(--side-w);
