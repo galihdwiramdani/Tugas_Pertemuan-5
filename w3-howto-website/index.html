@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>How To - HowToLab</title>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
@@ -16,7 +16,7 @@
       <button id="menuBtn" type="button" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
       <a class="logo" href="index.html">HowTo<span>Lab</span></a>
       <input id="search" class="search" type="search" placeholder="Search tutorials..." aria-label="Search tutorials">
-      <a class="login" href="pages/forms.html">Log in</a>
+      <a class="login" href="#">Log in</a>
     </div>
     <nav class="nav-row" aria-label="Kategori"><a href="https://www.w3schools.com/html/" target="_blank"
         rel="noopener">HTML</a><a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">CSS</a><a
@@ -26,29 +26,404 @@
         href="index.html">How To</a></nav>
   </header>
   <div class="layout">
-    <aside class="sidebar" aria-label="Daftar tutorial">
-      <h2>HOW TO</h2>
-      <a href="index.html" class=active>HowTo Home</a>
-      <h3>Menus</h3>
-      <a href="pages/navigation.html">Top Navigation</a>
-      <a href="pages/menus.html">Hover Dropdowns</a>
-      <h3>Images</h3>
-      <a href="pages/images.html">Responsive Images</a>
-      <h3>Buttons</h3>
-      <a href="pages/buttons.html">Alert Buttons</a>
-      <h3>Forms</h3>
-      <a href="pages/forms.html">Login Form</a>
-      <h3>Grid</h3>
-      <a href="pages/responsive.html">Responsive Columns</a>
+    <aside class="sidebar" id="sidebar" aria-label="Daftar tutorial">
+      <input id="sideSearch" class="side-search" type="search" placeholder="Search…" aria-label="Cari di sidebar">
+      <div class="side-label">How To</div>
+      <a class="side-home active" href="index.html">HowTo Home</a>
+      <section class="side-sec">
+        <div class="side-label">Menus</div>
+        <div class="side-links">
+          <a href="#">Icon Bar</a>
+          <a href="#">Menu Icon</a>
+          <a href="#">Accordion</a>
+          <a href="#">Tabs</a>
+          <a href="#">Vertical Tabs</a>
+          <a href="#">Tab Headers</a>
+          <a href="#">Full Page Tabs</a>
+          <a href="#">Hover Tabs</a>
+          <a href="#">Top Navigation</a>
+          <a href="#">Responsive Topnav</a>
+          <a href="#">Split Navigation</a>
+          <a href="#">Navbar with Icons</a>
+          <a href="#">Search Menu</a>
+          <a href="#">Search Bar</a>
+          <a href="#">Fixed Sidebar</a>
+          <a href="#">Side Navigation</a>
+          <a href="#">Responsive Sidebar</a>
+          <a href="#">Fullscreen Navigation</a>
+          <a href="#">Off-Canvas Menu</a>
+          <a href="#">Hover Sidenav Buttons</a>
+          <a href="#">Sidebar with Icons</a>
+          <a href="#">Horizontal Scroll Menu</a>
+          <a href="#">Vertical Menu</a>
+          <a href="#">Bottom Navigation</a>
+          <a href="#">Responsive Bottom Nav</a>
+          <a href="#">Bottom Border Nav Links</a>
+          <a href="#">Right Aligned Menu Links</a>
+          <a href="#">Centered Menu Link</a>
+          <a href="#">Equal Width Menu Links</a>
+          <a href="#">Fixed Menu</a>
+          <a href="#">Slide Down Bar on Scroll</a>
+          <a href="#">Hide Navbar on Scroll</a>
+          <a href="#">Shrink Navbar on Scroll</a>
+          <a href="#">Sticky Navbar</a>
+          <a href="#">Navbar on Image</a>
+          <a href="#">Hover Dropdowns</a>
+          <a href="#">Click Dropdowns</a>
+          <a href="#">Cascading Dropdown</a>
+          <a href="#">Dropdown in Topnav</a>
+          <a href="#">Dropdown in Sidenav</a>
+          <a href="#">Resp Navbar Dropdown</a>
+          <a href="#">Subnavigation Menu</a>
+          <a href="#">Dropup</a>
+          <a href="#">Mega Menu</a>
+          <a href="#">Mobile Menu</a>
+          <a href="#">Curtain Menu</a>
+          <a href="#">Collapsed Sidebar</a>
+          <a href="#">Collapsed Sidepanel</a>
+          <a href="#">Pagination</a>
+          <a href="#">Breadcrumbs</a>
+          <a href="#">Button Group</a>
+          <a href="#">Vertical Button Group</a>
+          <a href="#">Sticky Social Bar</a>
+          <a href="#">Pill Navigation</a>
+          <a href="#">Responsive Header</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Images</div>
+        <div class="side-links">
+          <a href="#">Slideshow</a>
+          <a href="#">Slideshow Gallery</a>
+          <a href="#">Modal Images</a>
+          <a href="#">Lightbox</a>
+          <a href="#">Responsive Image Grid</a>
+          <a href="#">Image Grid</a>
+          <a href="#">Image Gallery</a>
+          <a href="#">Scrollable Image Gallery</a>
+          <a href="#">Tab Gallery</a>
+          <a href="#">Image Overlay Fade</a>
+          <a href="#">Image Overlay Slide</a>
+          <a href="#">Image Overlay Zoom</a>
+          <a href="#">Image Overlay Title</a>
+          <a href="#">Image Overlay Icon</a>
+          <a href="#">Image Effects</a>
+          <a href="#">Black and White Image</a>
+          <a href="#">Image Text</a>
+          <a href="#">Image Text Blocks</a>
+          <a href="#">Transparent Image Text</a>
+          <a href="#">Full Page Image</a>
+          <a href="#">Form on Image</a>
+          <a href="#">Hero Image</a>
+          <a href="#">Blur Background Image</a>
+          <a href="#">Change Bg on Scroll</a>
+          <a href="#">Side-by-Side Images</a>
+          <a href="#">Rounded Images</a>
+          <a href="#">Avatar Images</a>
+          <a href="#">Responsive Images</a>
+          <a href="#">Center Images</a>
+          <a href="#">Thumbnails</a>
+          <a href="#">Border Around Image</a>
+          <a href="#">Meet the Team</a>
+          <a href="#">Sticky Image</a>
+          <a href="#">Flip an Image</a>
+          <a href="#">Shake an Image</a>
+          <a href="#">Portfolio Gallery</a>
+          <a href="#">Portfolio with Filtering</a>
+          <a href="#">Image Zoom</a>
+          <a href="#">Image Magnifier Glass</a>
+          <a href="#">Image Comparison Slider</a>
+          <a href="#">Favicon</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Buttons</div>
+        <div class="side-links">
+          <a href="#">Alert Buttons</a>
+          <a href="#">Outline Buttons</a>
+          <a href="#">Split Buttons</a>
+          <a href="#">Animated Buttons</a>
+          <a href="#">Fading Buttons</a>
+          <a href="#">Button on Image</a>
+          <a href="#">Social Media Buttons</a>
+          <a href="#">Read More Read Less</a>
+          <a href="#">Loading Buttons</a>
+          <a href="#">Download Buttons</a>
+          <a href="#">Pill Buttons</a>
+          <a href="#">Notification Button</a>
+          <a href="#">Icon Buttons</a>
+          <a href="#">Next/prev Buttons</a>
+          <a href="#">More Button in Nav</a>
+          <a href="#">Block Buttons</a>
+          <a href="#">Text Buttons</a>
+          <a href="#">Round Buttons</a>
+          <a href="#">Scroll To Top Button</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Forms</div>
+        <div class="side-links">
+          <a href="#">Login Form</a>
+          <a href="#">Signup Form</a>
+          <a href="#">Checkout Form</a>
+          <a href="#">Contact Form</a>
+          <a href="#">Social Login Form</a>
+          <a href="#">Register Form</a>
+          <a href="#">Form with Icons</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Stacked Form</a>
+          <a href="#">Responsive Form</a>
+          <a href="#">Popup Form</a>
+          <a href="#">Inline Form</a>
+          <a href="#">Clear Input Field</a>
+          <a href="#">Hide Number Arrows</a>
+          <a href="#">Copy Text to Clipboard</a>
+          <a href="#">Animated Search</a>
+          <a href="#">Search Button</a>
+          <a href="#">Fullscreen Search</a>
+          <a href="#">Input Field in Navbar</a>
+          <a href="#">Login Form in Navbar</a>
+          <a href="#">Custom Checkbox/Radio</a>
+          <a href="#">Custom Select</a>
+          <a href="#">Toggle Switch</a>
+          <a href="#">Check Checkbox</a>
+          <a href="#">Detect Caps Lock</a>
+          <a href="#">Trigger Button on Enter</a>
+          <a href="#">Password Validation</a>
+          <a href="#">Toggle Password Visibility</a>
+          <a href="#">Multiple Step Form</a>
+          <a href="#">Autocomplete</a>
+          <a href="#">Turn off autocomplete</a>
+          <a href="#">Turn off spellcheck</a>
+          <a href="#">File Upload Button</a>
+          <a href="#">Empty Input Validation</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Filters</div>
+        <div class="side-links">
+          <a href="#">Filter List</a>
+          <a href="#">Filter Table</a>
+          <a href="#">Filter Elements</a>
+          <a href="#">Filter Dropdown</a>
+          <a href="#">Sort List</a>
+          <a href="#">Sort Table</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Tables</div>
+        <div class="side-links">
+          <a href="#">Zebra Striped Table</a>
+          <a href="#">Center Tables</a>
+          <a href="#">Full-width Table</a>
+          <a href="#">Nested Table</a>
+          <a href="#">Side-by-side Tables</a>
+          <a href="#">Responsive Tables</a>
+          <a href="#">Comparison Table</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">More</div>
+        <div class="side-links">
+          <a href="#">Fullscreen Video</a>
+          <a href="#">Modal Boxes</a>
+          <a href="#">Delete Modal</a>
+          <a href="#">Timeline</a>
+          <a href="#">Scroll Indicator</a>
+          <a href="#">Progress Bars</a>
+          <a href="#">Skill Bar</a>
+          <a href="#">Range Sliders</a>
+          <a href="#">Color Picker</a>
+          <a href="#">Email Field</a>
+          <a href="#">Tooltips</a>
+          <a href="#">Display Element Hover</a>
+          <a href="#">Popups</a>
+          <a href="#">Collapsible</a>
+          <a href="#">Calendar</a>
+          <a href="#">HTML Includes</a>
+          <a href="#">To Do List</a>
+          <a href="#">Loaders</a>
+          <a href="#">Badges</a>
+          <a href="#">Star Rating</a>
+          <a href="#">User Rating</a>
+          <a href="#">Overlay Effect</a>
+          <a href="#">Contact Chips</a>
+          <a href="#">Cards</a>
+          <a href="#">Flip Card</a>
+          <a href="#">Profile Card</a>
+          <a href="#">Product Card</a>
+          <a href="#">Alerts</a>
+          <a href="#">Callout</a>
+          <a href="#">Notes</a>
+          <a href="#">Labels</a>
+          <a href="#">Ribbon</a>
+          <a href="#">Tag Cloud</a>
+          <a href="#">Circles</a>
+          <a href="#">Style HR</a>
+          <a href="#">Coupon</a>
+          <a href="#">List Group</a>
+          <a href="#">List Group with Badges</a>
+          <a href="#">List Without Bullets</a>
+          <a href="#">Responsive Text</a>
+          <a href="#">Cutout Text</a>
+          <a href="#">Glowing Text</a>
+          <a href="#">Fixed Footer</a>
+          <a href="#">Sticky Element</a>
+          <a href="#">Equal Height</a>
+          <a href="#">Clearfix</a>
+          <a href="#">Responsive Floats</a>
+          <a href="#">Snackbar</a>
+          <a href="#">Fullscreen Window</a>
+          <a href="#">Scroll Drawing</a>
+          <a href="#">Smooth Scroll</a>
+          <a href="#">Gradient Bg Scroll</a>
+          <a href="#">Sticky Header</a>
+          <a href="#">Shrink Header on Scroll</a>
+          <a href="#">Pricing Table</a>
+          <a href="#">Parallax</a>
+          <a href="#">Aspect Ratio</a>
+          <a href="#">Responsive Iframes</a>
+          <a href="#">Toggle Like/Dislike</a>
+          <a href="#">Toggle Hide/Show</a>
+          <a href="#">Toggle Dark Mode</a>
+          <a href="#">Toggle Text</a>
+          <a href="#">Toggle Class</a>
+          <a href="#">Add Class</a>
+          <a href="#">Remove Class</a>
+          <a href="#">Change Class</a>
+          <a href="#">Active Class</a>
+          <a href="#">Tree View</a>
+          <a href="#">Remove Decimals</a>
+          <a href="#">Remove Property</a>
+          <a href="#">Offline Detection</a>
+          <a href="#">Find Hidden Element</a>
+          <a href="#">Redirect Webpage</a>
+          <a href="#">Format a Number</a>
+          <a href="#">Zoom Hover</a>
+          <a href="#">Flip Box</a>
+          <a href="#">Center Vertically</a>
+          <a href="#">Center Button in DIV</a>
+          <a href="#">Center a List</a>
+          <a href="#">Transition on Hover</a>
+          <a href="#">Arrows</a>
+          <a href="#">Shapes</a>
+          <a href="#">Download Link</a>
+          <a href="#">Full Height Element</a>
+          <a href="#">Browser Window</a>
+          <a href="#">Custom Scrollbar</a>
+          <a href="#">Hide Scrollbar</a>
+          <a href="#">Show/Force Scrollbar</a>
+          <a href="#">Device Look</a>
+          <a href="#">Contenteditable Border</a>
+          <a href="#">Placeholder Color</a>
+          <a href="#">Disable Resizing of Textarea</a>
+          <a href="#">Disable Text Selection</a>
+          <a href="#">Text Selection Color</a>
+          <a href="#">Bullet Color</a>
+          <a href="#">Vertical Line</a>
+          <a href="#">Dividers</a>
+          <a href="#">Text Divider</a>
+          <a href="#">Animate Icons</a>
+          <a href="#">Countdown Timer</a>
+          <a href="#">Typewriter</a>
+          <a href="#">Coming Soon Page</a>
+          <a href="#">Chat Messages</a>
+          <a href="#">Popup Chat Window</a>
+          <a href="#">Split Screen</a>
+          <a href="#">Testimonials</a>
+          <a href="#">Section Counter</a>
+          <a href="#">Quotes Slideshow</a>
+          <a href="#">Closable List Items</a>
+          <a href="#">Typical Device Breakpoints</a>
+          <a href="#">Draggable HTML Element</a>
+          <a href="#">JS Media Queries</a>
+          <a href="#">Syntax Highlighter</a>
+          <a href="#">JS Animations</a>
+          <a href="#">JS String Length</a>
+          <a href="#">JS Exponentiation</a>
+          <a href="#">JS Default Parameters</a>
+          <a href="#">JS Random Number</a>
+          <a href="#">JS Sort Numeric Array</a>
+          <a href="#">JS Spread Operator</a>
+          <a href="#">JS Scroll Into View</a>
+          <a href="#">Get Current Date</a>
+          <a href="#">Get Current URL</a>
+          <a href="#">Get Current Screen Size</a>
+          <a href="#">Get Iframe Elements</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Website</div>
+        <div class="side-links">
+          <a href="#">Create a Website</a>
+          <a href="#">Make a Website</a>
+          <a href="#">Make a Static Website</a>
+          <a href="#">Host a Static Website</a>
+          <a href="#">Make a Website (W3.CSS)</a>
+          <a href="#">Make a Website (BS3)</a>
+          <a href="#">Make a Website (BS4)</a>
+          <a href="#">Make a Website (BS5)</a>
+          <a href="#">Create and View a Website</a>
+          <a href="#">Create a Portfolio</a>
+          <a href="#">Create a Resume</a>
+          <a href="#">Make a Restaurant Website</a>
+          <a href="#">Make a Business Website</a>
+          <a href="#">Make a WebBook</a>
+          <a href="#">Center Website</a>
+          <a href="#">Contact Section</a>
+          <a href="#">About Page</a>
+          <a href="#">Big Header</a>
+          <a href="#">Example Website</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Grid</div>
+        <div class="side-links">
+          <a href="#">2 Column Layout</a>
+          <a href="#">3 Column Layout</a>
+          <a href="#">4 Column Layout</a>
+          <a href="#">Expanding Grid</a>
+          <a href="#">List Grid View</a>
+          <a href="#">Mixed Column Layout</a>
+          <a href="#">Column Cards</a>
+          <a href="#">Zig Zag Layout</a>
+          <a href="#">Blog Layout</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Google</div>
+        <div class="side-links">
+          <a href="#">Google Charts</a>
+          <a href="#">Google Fonts</a>
+          <a href="#">Google Font Pairings</a>
+          <a href="#">Google Set up Analytics</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Converters</div>
+        <div class="side-links">
+          <a href="#">Convert Weight</a>
+          <a href="#">Convert Temperature</a>
+          <a href="#">Convert Length</a>
+          <a href="#">Convert Speed</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">Blog</div>
+        <div class="side-links">
+          <a href="#">Get a Developer Job</a>
+          <a href="#">Become a Front-End Dev.</a>
+          <a href="#">Hire Developers</a>
+        </div>
+      </section>
     </aside>
     <main>
       <h1>HowToLab <span class="hl">How To</span></h1>
-      <div class="pn"><span></span><a class="btn" href="pages/navigation.html">Next &#10095;</a></div>
       <hr>
       <p>Kumpulan contoh kode HTML dan CSS yang bisa disalin dan dicoba langsung.</p>
       <hr>
       <section class="tut" data-title="Top Navigation Menus">
-        <h2><a href="pages/navigation.html">Top Navigation</a></h2>
+        <h2>Top Navigation</h2>
         <iframe sandbox="allow-scripts" title="Top Navigation" style="height:80px" loading="lazy" srcdoc="&lt;!DOCTYPE html&gt;
 &lt;style&gt;
 body{margin:0;font-family:Arial}
@@ -62,11 +437,10 @@ body{margin:0;font-family:Arial}
   &lt;a href=&quot;#&quot;&gt;News&lt;/a&gt;
   &lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
 &lt;/div&gt;"></iframe>
-        <p><a class="btn" href="pages/navigation.html">Learn How To &raquo;</a></p>
         <hr>
       </section>
       <section class="tut" data-title="Hover Dropdowns Menus">
-        <h2><a href="pages/menus.html">Hover Dropdowns</a></h2>
+        <h2>Hover Dropdowns</h2>
         <iframe sandbox="allow-scripts" title="Hover Dropdowns" style="height:190px" loading="lazy" srcdoc="&lt;!DOCTYPE html&gt;
 &lt;style&gt;
 body{font-family:Arial}
@@ -85,11 +459,10 @@ body{font-family:Arial}
     &lt;a href=&quot;#&quot;&gt;Link 3&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;"></iframe>
-        <p><a class="btn" href="pages/menus.html">Learn How To &raquo;</a></p>
         <hr>
       </section>
       <section class="tut" data-title="Responsive Images Images">
-        <h2><a href="pages/images.html">Responsive Images</a></h2>
+        <h2>Responsive Images</h2>
         <iframe sandbox="allow-scripts" title="Responsive Images" style="height:190px" loading="lazy" srcdoc="&lt;!DOCTYPE html&gt;
 &lt;style&gt;
 .gallery{display:flex;flex-wrap:wrap;gap:8px}
@@ -101,11 +474,10 @@ body{font-family:Arial}
   &lt;img src=&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; width=&#x27;300&#x27; height=&#x27;200&#x27;%3E%3Crect width=&#x27;300&#x27; height=&#x27;200&#x27; fill=&#x27;%232196F3&#x27;/%3E%3C/svg%3E&quot; alt=&quot;Biru&quot;&gt;
   &lt;img src=&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; width=&#x27;300&#x27; height=&#x27;200&#x27;%3E%3Crect width=&#x27;300&#x27; height=&#x27;200&#x27; fill=&#x27;%23ff9800&#x27;/%3E%3C/svg%3E&quot; alt=&quot;Oranye&quot;&gt;
 &lt;/div&gt;"></iframe>
-        <p><a class="btn" href="pages/images.html">Learn How To &raquo;</a></p>
         <hr>
       </section>
       <section class="tut" data-title="Alert Buttons Buttons">
-        <h2><a href="pages/buttons.html">Alert Buttons</a></h2>
+        <h2>Alert Buttons</h2>
         <iframe sandbox="allow-scripts" title="Alert Buttons" style="height:90px" loading="lazy" srcdoc="&lt;!DOCTYPE html&gt;
 &lt;style&gt;
 .btn{border:0;color:#fff;padding:14px 28px;font-size:16px;cursor:pointer;border-radius:3px}
@@ -121,11 +493,10 @@ body{font-family:Arial}
 &lt;button class=&quot;btn warning&quot;&gt;Warning&lt;/button&gt;
 &lt;button class=&quot;btn danger&quot;&gt;Danger&lt;/button&gt;
 &lt;button class=&quot;btn default&quot;&gt;Default&lt;/button&gt;"></iframe>
-        <p><a class="btn" href="pages/buttons.html">Learn How To &raquo;</a></p>
         <hr>
       </section>
       <section class="tut" data-title="Login Form Forms">
-        <h2><a href="pages/forms.html">Login Form</a></h2>
+        <h2>Login Form</h2>
         <iframe sandbox="allow-scripts" title="Login Form" style="height:300px" loading="lazy" srcdoc="&lt;!DOCTYPE html&gt;
 &lt;style&gt;
 form{max-width:320px;font-family:Arial}
@@ -140,11 +511,10 @@ button:hover{opacity:.8}
   &lt;input type=&quot;password&quot; placeholder=&quot;Enter Password&quot;&gt;
   &lt;button&gt;Login&lt;/button&gt;
 &lt;/form&gt;"></iframe>
-        <p><a class="btn" href="pages/forms.html">Learn How To &raquo;</a></p>
         <hr>
       </section>
       <section class="tut" data-title="Responsive Columns Grid">
-        <h2><a href="pages/responsive.html">Responsive Columns</a></h2>
+        <h2>Responsive Columns</h2>
         <iframe sandbox="allow-scripts" title="Responsive Columns" style="height:170px" loading="lazy" srcdoc="&lt;!DOCTYPE html&gt;
 &lt;style&gt;
 .row{display:flex;flex-wrap:wrap;gap:8px;font-family:Arial}
@@ -156,130 +526,124 @@ button:hover{opacity:.8}
   &lt;div class=&quot;col&quot;&gt;Column 2&lt;/div&gt;
   &lt;div class=&quot;col&quot;&gt;Column 3&lt;/div&gt;
 &lt;/div&gt;"></iframe>
-        <p><a class="btn" href="pages/responsive.html">Learn How To &raquo;</a></p>
         <hr>
       </section>
       <p id="none" hidden>Tidak ada tutorial yang cocok dengan pencarian Anda.</p>
     </main>
   </div>
-  <footer>
-    <footer class="main-footer">
 
+  <footer class="main-footer">
 
-      <!-- Tambahan Navigasi Atas Footer -->
-      <div class="footer-top-nav">  
-        <a href="#" class="logo img">
+    <!-- Tambahan Navigasi Atas Footer -->
+    <div class="footer-top-nav">
+      <a href="#" class="logo img">
         <img src="W3Schools_logo.svg.webp" alt="W3Schools Logo">
       </a>
-        <a href="#">PLUS</a>
-        <a href="#">SPACES</a>
-        <a href="#">GET CERTIFIED</a>
-        <a href="#">FOR TEACHERS</a>
-        <a href="#">PRACTICE</a>
-        <a href="#">CONTACT US</a>
+      <a href="#">PLUS</a>
+      <a href="#">SPACES</a>
+      <a href="#">GET CERTIFIED</a>
+      <a href="#">FOR TEACHERS</a>
+      <a href="#">PRACTICE</a>
+      <a href="#">CONTACT US</a>
+    </div>
+
+    <div class="footer-container">
+
+      <!-- Kolom 1 -->
+      <div class="footer-column">
+        <h3>Top Tutorials</h3>
+        <a href="#">HTML Tutorial</a>
+        <a href="#">CSS Tutorial</a>
+        <a href="#">JavaScript Tutorial</a>
+        <a href="#">How To Tutorial</a>
+        <a href="#">SQL Tutorial</a>
+        <a href="#">Python Tutorial</a>
+        <a href="#">W3.CSS Tutorial</a>
+        <a href="#">Bootstrap Tutorial</a>
+        <a href="#">PHP Tutorial</a>
+        <a href="#">Java Tutorial</a>
+        <a href="#">C++ Tutorial</a>
+        <a href="#">jQuery Tutorial</a>
       </div>
 
-      <div class="footer-container">
-
-        <!-- Kolom 1 -->
-        <div class="footer-column">
-          <h3>Top Tutorials</h3>
-          <a href="#">HTML Tutorial</a>
-          <a href="#">CSS Tutorial</a>
-          <a href="#">JavaScript Tutorial</a>
-          <a href="#">How To Tutorial</a>
-          <a href="#">SQL Tutorial</a>
-          <a href="#">Python Tutorial</a>
-          <a href="#">W3.CSS Tutorial</a>
-          <a href="#">Bootstrap Tutorial</a>
-          <a href="#">PHP Tutorial</a>
-          <a href="#">Java Tutorial</a>
-          <a href="#">C++ Tutorial</a>
-          <a href="#">jQuery Tutorial</a>
-        </div>
-
-        <!-- Kolom 2 -->
-        <div class="footer-column">
-          <h3>Top References</h3>
-          <a href="#">HTML Reference</a>
-          <a href="#">CSS Reference</a>
-          <a href="#">JavaScript Reference</a>
-          <a href="#">SQL Reference</a>
-          <a href="#">Python Reference</a>
-          <a href="#">W3.CSS Reference</a>
-          <a href="#">Bootstrap Reference</a>
-          <a href="#">PHP Reference</a>
-          <a href="#">HTML Colors</a>
-          <a href="#">Java Reference</a>
-          <a href="#">AngularJS Reference</a>
-          <a href="#">jQuery Reference</a>
-        </div>
-
-        <!-- Kolom 3 -->
-        <div class="footer-column">
-          <h3>Top Examples</h3>
-          <a href="#">HTML Examples</a>
-          <a href="#">CSS Examples</a>
-          <a href="#">JavaScript Examples</a>
-          <a href="#">How To Examples</a>
-          <a href="#">SQL Examples</a>
-          <a href="#">Python Examples</a>
-          <a href="#">W3.CSS Examples</a>
-          <a href="#">Bootstrap Examples</a>
-          <a href="#">PHP Examples</a>
-          <a href="#">Java Examples</a>
-          <a href="#">XML Examples</a>
-          <a href="#">jQuery Examples</a>
-        </div>
-
-        <!-- Kolom 4 -->
-        <div class="footer-column">
-          <h3>Get Certified</h3>
-          <a href="#">HTML Certificate</a>
-          <a href="#">CSS Certificate</a>
-          <a href="#">JavaScript Certificate</a>
-          <a href="#">Front End Certificate</a>
-          <a href="#">SQL Certificate</a>
-          <a href="#">Python Certificate</a>
-          <a href="#">PHP Certificate</a>
-          <a href="#">jQuery Certificate</a>
-          <a href="#">Java Certificate</a>
-          <a href="#">C++ Certificate</a>
-          <a href="#">C# Certificate</a>
-          <a href="#">XML Certificate</a>
-        </div>
-
+      <!-- Kolom 2 -->
+      <div class="footer-column">
+        <h3>Top References</h3>
+        <a href="#">HTML Reference</a>
+        <a href="#">CSS Reference</a>
+        <a href="#">JavaScript Reference</a>
+        <a href="#">SQL Reference</a>
+        <a href="#">Python Reference</a>
+        <a href="#">W3.CSS Reference</a>
+        <a href="#">Bootstrap Reference</a>
+        <a href="#">PHP Reference</a>
+        <a href="#">HTML Colors</a>
+        <a href="#">Java Reference</a>
+        <a href="#">AngularJS Reference</a>
+        <a href="#">jQuery Reference</a>
       </div>
 
-      <!-- Footer bawah -->
-      <div class="footer-bottom">
-        <div class="footer-links">
-          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
-          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#">FORUM</a>
-          <a href="#">ABOUT</a>
-          <a href="#">ACADEMY</a>
-        </div>
-        <p>
-          W3Schools is optimized for learning and training. Examples might be simplified to improve reading and
-          learning.
-          Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full
-          correctness of
-          all content. While using W3Schools, you agree to have read and accepted our <a href="#">terms of use</a>, <a href="#">cookies</a> and <a href="#">privacy policy</a>.
-        </p>
-        <p class="copyright">
-          <a href="#">Copyright 1999-2026</a> by Refsnes Data. All Rights Reserved. <a href="#">W3Schools is Powered by W3.CSS.</a>
-        </p>
+      <!-- Kolom 3 -->
+      <div class="footer-column">
+        <h3>Top Examples</h3>
+        <a href="#">HTML Examples</a>
+        <a href="#">CSS Examples</a>
+        <a href="#">JavaScript Examples</a>
+        <a href="#">How To Examples</a>
+        <a href="#">SQL Examples</a>
+        <a href="#">Python Examples</a>
+        <a href="#">W3.CSS Examples</a>
+        <a href="#">Bootstrap Examples</a>
+        <a href="#">PHP Examples</a>
+        <a href="#">Java Examples</a>
+        <a href="#">XML Examples</a>
+        <a href="#">jQuery Examples</a>
       </div>
-    </footer>
 
+      <!-- Kolom 4 -->
+      <div class="footer-column">
+        <h3>Get Certified</h3>
+        <a href="#">HTML Certificate</a>
+        <a href="#">CSS Certificate</a>
+        <a href="#">JavaScript Certificate</a>
+        <a href="#">Front End Certificate</a>
+        <a href="#">SQL Certificate</a>
+        <a href="#">Python Certificate</a>
+        <a href="#">PHP Certificate</a>
+        <a href="#">jQuery Certificate</a>
+        <a href="#">Java Certificate</a>
+        <a href="#">C++ Certificate</a>
+        <a href="#">C# Certificate</a>
+        <a href="#">XML Certificate</a>
+      </div>
 
+    </div>
+
+    <!-- Footer bawah -->
+    <div class="footer-bottom">
+      <div class="footer-links">
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#">FORUM</a>
+        <a href="#">ABOUT</a>
+        <a href="#">ACADEMY</a>
+      </div>
+      <p>
+        W3Schools is optimized for learning and training. Examples might be simplified to improve reading and
+        learning.
+        Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full
+        correctness of
+        all content. While using W3Schools, you agree to have read and accepted our <a href="#">terms of use</a>, <a href="#">cookies</a> and <a href="#">privacy policy</a>.
+      </p>
+      <p class="copyright">
+        <a href="#">Copyright 1999-2026</a> by Refsnes Data. All Rights Reserved. <a href="#">W3Schools is Powered by W3.CSS.</a>
+      </p>
+    </div>
   </footer>
-  </footer>
-  <script src="js/script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
