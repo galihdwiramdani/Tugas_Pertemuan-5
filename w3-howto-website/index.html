@@ -12,26 +12,100 @@
 
 <body>
   <header class="topbar">
+    <!-- Navbar Utama (Atas) -->
     <div class="brand-row">
-      <button id="menuBtn" type="button" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
-      <a class="logo" href="index.html">HowTo<span>Lab</span></a>
-      <input id="search" class="search" type="search" placeholder="Search tutorials..." aria-label="Search tutorials">
-      <a class="login" href="#">Log in</a>
+      <div class="left-section">
+        <a href="index.html" class="w3-logo" aria-label="W3Schools">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools" height="38">
+        </a>
+        <nav class="main-nav-links">
+          <a href="#">Tutorials <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">References <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">Exercises <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">Certificates <i class="fa-solid fa-caret-down"></i></a>
+        </nav>
+      </div>
+
+      <div class="search-container">
+        <input type="text" placeholder="Search..." aria-label="Search tutorials">
+        <button type="button" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+
+      <div class="right-actions">
+        <button class="theme-btn" aria-label="Menu"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        <a href="#" class="upgrade-link">Upgrade</a>
+        <a href="#" class="app-btn">
+          <i class="fa-solid fa-dog" style="color:#b2762a; font-size:18px;"></i>
+          <div>
+            <span class="app-title">W3Schools app</span><br>
+            <span class="app-desc">Start the adventure</span>
+          </div>
+          <span class="new-badge">NEW</span>
+        </a>
+        <a href="#" class="paid-courses-btn">Paid Courses</a>
+        <a href="#" class="sign-in-btn">Sign In</a>
+      </div>
     </div>
-    <nav class="nav-row" aria-label="Kategori"><a href="https://www.w3schools.com/html/" target="_blank"
-        rel="noopener">HTML</a><a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">CSS</a><a
-        href="https://www.w3schools.com/js/" target="_blank" rel="noopener">JavaScript</a><a
-        href="https://www.w3schools.com/sql/" target="_blank" rel="noopener">SQL</a><a
-        href="https://www.w3schools.com/python/" target="_blank" rel="noopener">Python</a><a class="active"
-        href="index.html">How To</a></nav>
+
+    <!-- Navbar Sekunder (Bawah - Gelap) -->
+    <nav class="nav-row" aria-label="Kategori">
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JAVASCRIPT</a>
+      <a href="#">SQL</a>
+      <a href="#">PYTHON</a>
+      <a href="#">JAVA</a>
+      <a href="#">PHP</a>
+      <a href="#">C</a>
+      <a href="#">C++</a>
+      <a href="#">C#</a>
+      <a href="#">AWS</a>
+      <a href="#">W3.CSS</a>
+      <a class="active" href="index.html">HOW TO</a>
+      <a href="#">BOOTSTRAP</a>
+      <a href="#">REACT</a>
+      <a href="#">MYSQL</a>
+      <a href="#">EXCEL</a>
+      <a href="#">XML</a>
+      <a href="#">DJANGO</a>
+      <a href="#">NUMPY</a>
+      <a href="#">PANDAS</a>
+      <a href="#">NODEJS</a>
+      <a href="#">DSA</a>
+      <a href="#">TYPESCRIPT</a>
+      <a href="#">ANGULAR</a>
+      <a href="#">ANGULARJS</a>
+      <a href="#">GIT</a>
+      <a href="#">POSTGRESQL</a>
+      <a href="#">MONGODB</a>
+      <a href="#">ASP</a>
+      <a href="#">AI</a>
+      <a href="#">GO</a>
+      <a href="#">KOTLIN</a>
+      <a href="#">SWIFT</a>
+      <a href="#">SASS</a>
+      <a href="#">VUE</a>
+      <a href="#">GEN AI</a>
+      <a href="#">SCIPY</a>
+      <a href="#">CYBERSECURITY</a>
+      <a href="#">DATA SCIENCE</a>
+      <a href="#">INTRO TO PROGRAMMING</a>
+      <a href="#">INTRO TO HTML</a>
+      <a href="#">INTRO TO HTML & CSS</a>
+      <a href="#">BASH</a>
+      <a href="#">RUST</a>
+      <a href="#">TOOLS</a> 
+      <i class="fa-solid fa-chevron-right scroll-arrow"></i>
+    </nav>
   </header>
+  
   <div class="layout">
     <aside class="sidebar" id="sidebar" aria-label="Daftar tutorial">
       <input id="sideSearch" class="side-search" type="search" placeholder="Search…" aria-label="Cari di sidebar">
       <div class="side-label">HOW TO</div>
       <a class="side-home-active" href="index.html">HowTo Home</a>
       <section class="side-sec">
-        <div class="side-label">MENUS<Script:src></Script:src></div>
+        <div class="side-label">MENUS</div>
         <div class="side-links">
           <a href="#">Icon Bar</a>
           <a href="#">Menu Icon</a>
