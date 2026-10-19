@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How To - HowToLab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="images/W3Schools_logo.webp" type="image/x-icon">
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand-row">
+      <div class="left-section">
+        <a href="index.html" class="w3-logo" aria-label="W3Schools">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools" height="38">
+        </a>
+        <nav class="main-nav-links">
+          <a href="#">Tutorials <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">References <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">Exercises <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">Certificates <i class="fa-solid fa-caret-down"></i></a>
+        </nav>
+      </div>
+      <div class="search-container">
+        <input type="text" placeholder="Search..." aria-label="Search tutorials">
+        <button type="button" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="right-actions">
+        <button class="theme-btn" aria-label="Menu"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        <a href="#" class="upgrade-link">Upgrade</a>
+        <a href="#" class="app-btn">
+          <i class="fa-solid fa-dog" style="color:#b2762a; font-size:18px;"></i>
+          <div>
+            <span class="app-title">W3Schools app</span><br>
+            <span class="app-desc">Start the adventure</span>
+          </div>
+          <span class="new-badge">NEW</span>
+        </a>
+        <a href="#" class="paid-courses-btn">Paid Courses</a>
+        <a href="#" class="sign-in-btn">Sign In</a>
+      </div>
+    </div>
+    <div class="nav-row-background">
+      <nav class="nav-row" id="links" aria-label="Kategori">
+        <i class="fa-solid fa-chevron-left scroll-arrow prev" style="display: none;"></i>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JAVASCRIPT</a>
+        <a href="#">SQL</a>
+        <a href="#">PYTHON</a>
+        <a href="#">JAVA</a>
+        <a href="#">PHP</a>
+        <a href="#">C</a>
+        <a href="#">C++</a>
+        <a href="#">C#</a>
+        <a href="#">AWS</a>
+        <a href="#">W3.CSS</a>
+        <a class="active" href="index.html">HOW TO</a>
+        <a href="#">BOOTSTRAP</a>
+        <a href="#">REACT</a>
+        <a href="#">MYSQL</a>
+        <a href="#">EXCEL</a>
+        <a href="#">XML</a>
+        <a href="#">DJANGO</a>
+        <a href="#">NUMPY</a>
+        <a href="#">PANDAS</a>
+        <a href="#">NODEJS</a>
+        <a href="#">DSA</a>
+        <a href="#">TYPESCRIPT</a>
+        <a href="#">ANGULAR</a>
+        <a href="#">ANGULARJS</a>
+        <a href="#">GIT</a>
+        <a href="#">POSTGRESQL</a>
+        <a href="#">MONGODB</a>
+        <a href="#">ASP</a>
+        <a href="#">AI</a>
+        <a href="#">GO</a>
+        <a href="#">KOTLIN</a>
+        <a href="#">SWIFT</a>
+        <a href="#">SASS</a>
+        <a href="#">VUE</a>
+        <a href="#">GEN AI</a>
+        <a href="#">SCIPY</a>
+        <a href="#">CYBERSECURITY</a>
+        <a href="#">DATA SCIENCE</a>
+        <a href="#">INTRO TO PROGRAMMING</a>
+        <a href="#">INTRO TO HTML</a>
+        <a href="#">INTRO TO HTML & CSS</a>
+        <a href="#">BASH</a>
+        <a href="#">RUST</a>
+        <a href="#">TOOLS</a>
+        <i class="fa-solid fa-chevron-right scroll-arrow next"></i>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" aria-label="Daftar tutorial">
+      <input id="sideSearch" class="side-search" type="search" placeholder="Search…" aria-label="Cari di sidebar">
+      <div class="side-label">HOW TO</div>
+      <a class="side-home-active" href="index.html">HowTo Home</a>
+      <section class="side-sec">
+        <div class="side-label">MENUS</div>
+        <div class="side-links">
+          <a href="#">Icon Bar</a>
+          <a href="#">Menu Icon</a>
+          <a href="#">Accordion</a>
+          <a href="#">Tabs</a>
+          <a href="#">Vertical Tabs</a>
+          <a href="#">Tab Headers</a>
+          <a href="#">Full Page Tabs</a>
+          <a href="#">Hover Tabs</a>
+          <a href="#">Top Navigation</a>
+          <a href="#">Responsive Topnav</a>
+          <a href="#">Split Navigation</a>
+          <a href="#">Navbar with Icons</a>
+          <a href="#">Search Menu</a>
+          <a href="#">Search Bar</a>
+          <a href="#">Fixed Sidebar</a>
+          <a href="#">Side Navigation</a>
+          <a href="#">Responsive Sidebar</a>
+          <a href="#">Fullscreen Navigation</a>
+          <a href="#">Off-Canvas Menu</a>
+          <a href="#">Hover Sidenav Buttons</a>
+          <a href="#">Sidebar with Icons</a>
+          <a href="#">Horizontal Scroll Menu</a>
+          <a href="#">Vertical Menu</a>
+          <a href="#">Bottom Navigation</a>
+          <a href="#">Responsive Bottom Nav</a>
+          <a href="#">Bottom Border Nav Links</a>
+          <a href="#">Right Aligned Menu Links</a>
+          <a href="#">Centered Menu Link</a>
+          <a href="#">Equal Width Menu Links</a>
+          <a href="#">Fixed Menu</a>
+          <a href="#">Slide Down Bar on Scroll</a>
+          <a href="#">Hide Navbar on Scroll</a>
+          <a href="#">Shrink Navbar on Scroll</a>
+          <a href="#">Sticky Navbar</a>
+          <a href="#">Navbar on Image</a>
+          <a href="#">Hover Dropdowns</a>
+          <a href="#">Click Dropdowns</a>
+          <a href="#">Cascading Dropdown</a>
+          <a href="#">Dropdown in Topnav</a>
+          <a href="#">Dropdown in Sidenav</a>
+          <a href="#">Resp Navbar Dropdown</a>
+          <a href="#">Subnavigation Menu</a>
+          <a href="#">Dropup</a>
+          <a href="#">Mega Menu</a>
+          <a href="#">Mobile Menu</a>
+          <a href="#">Curtain Menu</a>
+          <a href="#">Collapsed Sidebar</a>
+          <a href="#">Collapsed Sidepanel</a>
+          <a href="#">Pagination</a>
+          <a href="#">Breadcrumbs</a>
+          <a href="#">Button Group</a>
+          <a href="#">Vertical Button Group</a>
+          <a href="#">Sticky Social Bar</a>
+          <a href="#">Pill Navigation</a>
+          <a href="#">Responsive Header</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">IMAGES</div>
+        <div class="side-links">
+          <a href="#">Slideshow</a>
+          <a href="#">Slideshow Gallery</a>
+          <a href="#">Modal Images</a>
+          <a href="#">Lightbox</a>
+          <a href="#">Responsive Image Grid</a>
+          <a href="#">Image Grid</a>
+          <a href="#">Image Gallery</a>
+          <a href="#">Scrollable Image Gallery</a>
+          <a href="#">Tab Gallery</a>
+          <a href="#">Image Overlay Fade</a>
+          <a href="#">Image Overlay Slide</a>
+          <a href="#">Image Overlay Zoom</a>
+          <a href="#">Image Overlay Title</a>
+          <a href="#">Image Overlay Icon</a>
+          <a href="#">Image Effects</a>
+          <a href="#">Black and White Image</a>
+          <a href="#">Image Text</a>
+          <a href="#">Image Text Blocks</a>
+          <a href="#">Transparent Image Text</a>
+          <a href="#">Full Page Image</a>
+          <a href="#">Form on Image</a>
+          <a href="#">Hero Image</a>
+          <a href="#">Blur Background Image</a>
+          <a href="#">Change Bg on Scroll</a>
+          <a href="#">Side-by-Side Images</a>
+          <a href="#">Rounded Images</a>
+          <a href="#">Avatar Images</a>
+          <a href="#">Responsive Images</a>
+          <a href="#">Center Images</a>
+          <a href="#">Thumbnails</a>
+          <a href="#">Border Around Image</a>
+          <a href="#">Meet the Team</a>
+          <a href="#">Sticky Image</a>
+          <a href="#">Flip an Image</a>
+          <a href="#">Shake an Image</a>
+          <a href="#">Portfolio Gallery</a>
+          <a href="#">Portfolio with Filtering</a>
+          <a href="#">Image Zoom</a>
+          <a href="#">Image Magnifier Glass</a>
+          <a href="#">Image Comparison Slider</a>
+          <a href="#">Favicon</a>
+        </div>
+      </section>
+      <section class="side-sec">
+        <div class="side-label">BUTTONS</div>
+        <div class="side-links">
+          <a href="#">Alert Buttons</a>
+          <a href="#">Outline Buttons</a>
+          <a href="#">Split Buttons</a>
+          <a href="#">Animated Buttons</a>
+          <a href="#">Fading Buttons</a>
+          <a href="#">Button on Image</a>
+          <a href="#">Social Media Buttons</a>
+          <a href="#">Read More Read Less</a>
+          <a href="#">Loading Buttons</a>
+          <a href="#">Download Buttons</a>
+          <a href="#">Pill Buttons</a>
+          <a href="#">Notification Button</a>
+          <a href="#">Icon Buttons</a>
+          <a href="#">Next/prev Buttons</a>
+          <a href="#">More Button in Nav</a>
+          <a href="#">Block Buttons</a>
+          <a href="#">Text Buttons</a>
+          <a href="#">Round Buttons</a>
+          <a href="#">Scroll To Top Button</a>
+        </div>
+      </section>
+    </aside>
+
+    <main>
+      <div class="main-content">
+        <h1>W3Schools How To</h1>
+        <div class="pagination">
+          <a href="#">❮</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">7</a>
+          <a href="#">8</a>
+          <a href="#">❯</a>
+        </div>
+        <hr class="top-hr">
+        <p class="howto-subtitle">Code snippets for HTML, CSS and JavaScript.</p>
+        <hr class="top-hr">
+        <div class="howto-grid">
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Slideshow</h2>
+            <div class="card-content">
+              <div style="position:relative; width: 100%; max-width: 1000px; margin: auto;">
+                <div class="mySlides slfade" style="display: block;">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%;min-height:100px;"
+                    alt="Nature">
+                  <div class="sltext">Caption Text</div>
+                </div>
+                <div class="mySlides slfade" style="display: none;">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%;min-height:100px;"
+                    alt="Snow">
+                  <div class="sltext">Caption Two</div>
+                </div>
+                <div class="mySlides slfade" style="display: none;">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" style="width:100%;min-height:100px;"
+                    alt="Mountains">
+                  <div class="sltext">Caption Three</div>
+                </div>
+                <div class="mySlides slfade" style="display: none;">
+                  <div class="numbertext">4 / 4</div>
+                  <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" style="width:100%;min-height:100px;"
+                    alt="Lights">
+                  <div class="sltext">Caption Four</div>
+                </div>
+                <a class="slprev" onclick="plusSlides(-1)">❮</a>
+                <a class="slnext" onclick="plusSlides(1)">❯</a>
+              </div>
+              <div style="text-align:center; margin-top: 15px;">
+                <a href="javascript:void(0)" class="sldot slideractive" onclick="currentSlide(1)"></a>
+                <a href="javascript:void(0)" class="sldot" onclick="currentSlide(2)"></a>
+                <a href="javascript:void(0)" class="sldot" onclick="currentSlide(3)"></a>
+                <a href="javascript:void(0)" class="sldot" onclick="currentSlide(4)"></a>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Login Form</h2>
+            <div class="card-content">
+              <button
+                onclick="document.getElementById('loginModal').style.display='block';document.getElementById('thishtpw').type = 'password'"
+                class="w3-button w3-blue" style="font-size:17px;width:150px">Login</button>
+              <div id="loginModal" class="w3-modal" style="cursor:pointer;">
+                <div class="w3-modal-content w3-card-4 w3-animate-zoom"
+                  style="max-width:600px;cursor:auto;text-align:left;">
+                  <div class="w3-center"><br>
+                    <span onclick="document.getElementById('loginModal').style.display='none'"
+                      class="w3-button w3-hover-text-grey w3-container w3-display-topright w3-xxlarge">×</span>
+                    <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:40%"
+                      class="w3-circle w3-margin-top">
+                  </div>
+                  <div class="w3-container">
+                    <div class="w3-section">
+                      <label><b>Username</b></label>
+                      <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username">
+                      <label><b>Password</b></label>
+                      <input class="w3-input w3-border" type="password" id="thishtpw" placeholder="Enter Password">
+                      <button class="w3-button w3-block w3-green w3-section w3-padding"
+                        onclick="document.getElementById('loginModal').style.display='none'">Login</button>
+                      <input type="checkbox" checked="checked"> Remember me
+                    </div>
+                  </div>
+                  <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                    <button onclick="document.getElementById('loginModal').style.display='none'" type="button"
+                      class="w3-btn w3-red">Cancel</button>
+                    <span class="w3-right w3-padding w3-hide-small">Forgot <a href="javascript:void(0)"
+                        onclick="document.getElementById('loginModal').style.display='none'">password?</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Accordion</h2>
+            <div class="card-content" style="display: block;">
+              <button class="accordion activeacc" id="myfirstAcc">Section 1</button>
+              <div class="panel showpanel" style="color:#000;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua.</p>
+              </div>
+              <button class="accordion">Section 2</button>
+              <div class="panel" style="color:#000;">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.</p>
+              </div>
+              <button class="accordion">Section 3</button>
+              <div class="panel" style="color:#000;">
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur.</p>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Hover Dropdowns</h2>
+            <div class="card-content">
+              <div class="dropdown dropdown2">
+                <button class="dropbtn" style="background-color:#f4511e;">Hover</button>
+                <div class="dropdown-content">
+                  <a href="javascript:void(0)">Link 1</a>
+                  <a href="javascript:void(0)">Link 2</a>
+                  <a href="javascript:void(0)">Link 3</a>
+                </div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Click Dropdowns</h2>
+            <div class="card-content">
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn" style="cursor:pointer">Click</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="javascript:void(0)">Link 1</a>
+                  <a href="javascript:void(0)">Link 2</a>
+                  <a href="javascript:void(0)">Link 3</a>
+                </div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Side Navigation</h2>
+            <div class="card-content">
+              <div id="myCanvasNav" class="overlay3" onclick="closeOffcanvas()"></div>
+              <div id="myOffcanvas" class="offcanvas">
+                <a href="javascript:void(0)" class="closeOffcanvas" onclick="closeOffcanvas()">×</a>
+                <a href="javascript:void(0)">About</a>
+                <a href="javascript:void(0)">Services</a>
+                <a href="javascript:void(0)">Clients</a>
+                <a href="javascript:void(0)">Contact</a>
+              </div>
+              <button class="w3-button w3-black w3-padding w3-margin-bottom" onclick="openOffcanvas1()">Sidenav
+                overlay</button><br>
+              <button class="w3-button w3-black w3-padding" onclick="openNav3();openOffcanvas();">Sidenav
+                w/opacity</button>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Modal Box</h2>
+            <div class="card-content">
+              <button onclick="document.getElementById('id01').style.display='block'"
+                class="w3-button w3-teal w3-large w3-padding-large">Open Modal</button>
+              <div id="id01" class="w3-modal">
+                <div class="w3-modal-content w3-animate-top w3-card-4" style="text-align: left;">
+                  <header class="w3-container w3-teal w3-display-container">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                      class="w3-button w3-display-topright" style="font-size:33px !important">×</span>
+                    <h2>Modal Header</h2>
+                  </header>
+                  <div class="w3-container">
+                    <p>Hello World!</p>
+                    <p>Modals are awesome!</p>
+                  </div>
+                  <footer class="w3-container w3-teal">
+                    <p>Modal Footer</p>
+                  </footer>
+                </div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Modal Image</h2>
+            <div class="card-content">
+              <div class="imgmod">
+                <img id="eh" src="https://www.w3schools.com/howto/img_snow.jpg" alt="Snow" width="300" height="200"
+                  style="cursor: pointer;">
+              </div>
+              <div id="myModal2" class="modal2">
+                <span class="closeimg" onclick="document.getElementById('myModal2').style.display='none'">×</span>
+                <img class="modal-content2" id="img02">
+                <div id="caption"></div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Tabs</h2>
+            <div class="card-content" style="display: block;">
+              <ul class="tab">
+                <li><a href="javascript:void(0)" class="tablinks tabactive"
+                    onclick="openCity('London', event)">London</a></li>
+                <li><a href="javascript:void(0)" class="tablinks" onclick="openCity('Paris', event)">Paris</a></li>
+                <li><a href="javascript:void(0)" class="tablinks tokyotab" onclick="openCity('Tokyo', event)">Tokyo</a>
+                </li>
+              </ul>
+              <div style="border:1px solid #ccc; border-top:none; text-align: left;">
+                <div id="London" class="tabcontent" style="display: block;">
+                  <h3>London</h3>
+                  <p>London is the capital city of England.</p>
+                </div>
+                <div id="Paris" class="tabcontent" style="display: none;">
+                  <h3>Paris</h3>
+                  <p>Paris is the capital of France.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent tokyotab" style="display: none;">
+                  <h3>Tokyo</h3>
+                  <p>Tokyo is the capital of Japan.</p>
+                </div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Tab Image Gallery</h2>
+            <div class="card-content" style="display: block;">
+              <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-col s4 w3-container">
+                  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature');">
+                    <img src="https://www.w3schools.com/howto/img_nature.jpg" alt="Nature" style="width:100%">
+                  </a>
+                </div>
+                <div class="w3-col s4 w3-container">
+                  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Snow');">
+                    <img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Snow" style="width:100%">
+                  </a>
+                </div>
+                <div class="w3-col s4 w3-container">
+                  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
+                    <img src="https://www.w3schools.com/howto/img_lights.jpg" alt="Lights" style="width:100%">
+                  </a>
+                </div>
+              </div>
+              <div id="Nature" class="picture w3-display-container w3-margin-top" style="display:none">
+                <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="Nature" style="width:100%">
+                <span onclick="this.parentElement.style.display='none'"
+                  class="w3-display-topright w3-button w3-transparent w3-text-white w3-xlarge">×</span>
+                <div class="w3-display-bottomleft w3-container w3-padding w3-text-white w3-large">Nature</div>
+              </div>
+              <div id="Snow" class="picture w3-display-container w3-margin-top" style="display:none">
+                <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" alt="Snow" style="width:100%">
+                <span onclick="this.parentElement.style.display='none'"
+                  class="w3-display-topright w3-button w3-transparent w3-text-white w3-xlarge">×</span>
+                <div class="w3-display-bottomleft w3-container w3-padding w3-text-white w3-large">Snow</div>
+              </div>
+              <div id="Lights" class="picture w3-display-container w3-margin-top" style="display:none">
+                <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="Lights" style="width:100%">
+                <span onclick="this.parentElement.style.display='none'"
+                  class="w3-display-topright w3-button w3-transparent w3-text-white w3-xlarge">×</span>
+                <div class="w3-display-bottomleft w3-container w3-padding w3-text-white w3-large">Northern Lights</div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-card-4">
+            <h2 class="card-title">Login Form in Navbar</h2>
+            <div class="card-content" style="display: block; padding: 0;">
+              <div class="topnav3">
+                <a class="active" href="javascript:void(0)">Home</a>
+                <a href="javascript:void(0)">About</a>
+                <a href="javascript:void(0)">Contact</a>
+                <div class="login-container">
+                  <input type="text" placeholder="Username" name="username">
+                  <input type="text" placeholder="Password" name="psw">
+                  <button type="button">Login</button>
+                </div>
+              </div>
+            </div>
+            <div class="howto-container-footer">
+              <a href="#" class="ws-btn btn-learn">Learn How To »</a>
+            </div>
+          </div>
+
+          <div class="w3-panel ws-note" style="background-color: #ffffcc; padding: 20px; text-align: left;">
+            <p>Ever heard about <strong>W3Schools Spaces</strong>? Here you can create your own website, or save your
+              favorite code snippets.</p>
+            <a class="ws-btn btn-learn" href="https://www.w3spaces.com" target="_blank"
+              style="text-decoration: none;">Get started for free ❯</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="right-ads-bar">
+        <div class="social-icons">
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <a href="#" class="remove-ads">REMOVE ADS</a>
+      </div>
+    </main>
+  </div>
+
+  <footer class="main-footer-background">
+    <div class="main-footer">
+      <div class="footer-top-nav">
+        <a href="#" class="logo img">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" alt="W3Schools Logo">
+        </a>
+        <a href="#">PLUS</a>
+        <a href="#">SPACES</a>
+        <a href="#">GET CERTIFIED</a>
+        <a href="#">FOR TEACHERS</a>
+        <a href="#">PRACTICE</a>
+        <a href="#">CONTACT US</a>
+      </div>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Top Tutorials</h3>
+          <a href="#">HTML Tutorial</a>
+          <a href="#">CSS Tutorial</a>
+          <a href="#">JavaScript Tutorial</a>
+          <a href="#">How To Tutorial</a>
+          <a href="#">SQL Tutorial</a>
+          <a href="#">Python Tutorial</a>
+          <a href="#">W3.CSS Tutorial</a>
+          <a href="#">Bootstrap Tutorial</a>
+        </div>
+        <div class="footer-column">
+          <h3>Top References</h3>
+          <a href="#">HTML Reference</a>
+          <a href="#">CSS Reference</a>
+          <a href="#">JavaScript Reference</a>
+          <a href="#">SQL Reference</a>
+          <a href="#">Python Reference</a>
+          <a href="#">W3.CSS Reference</a>
+          <a href="#">Bootstrap Reference</a>
+          <a href="#">PHP Reference</a>
+        </div>
+        <div class="footer-column">
+          <h3>Top Examples</h3>
+          <a href="#">HTML Examples</a>
+          <a href="#">CSS Examples</a>
+          <a href="#">JavaScript Examples</a>
+          <a href="#">How To Examples</a>
+          <a href="#">SQL Examples</a>
+          <a href="#">Python Examples</a>
+          <a href="#">W3.CSS Examples</a>
+          <a href="#">Bootstrap Examples</a>
+        </div>
+        <div class="footer-column">
+          <h3>Get Certified</h3>
+          <a href="#">HTML Certificate</a>
+          <a href="#">CSS Certificate</a>
+          <a href="#">JavaScript Certificate</a>
+          <a href="#">Front End Certificate</a>
+          <a href="#">SQL Certificate</a>
+          <a href="#">Python Certificate</a>
+          <a href="#">PHP Certificate</a>
+          <a href="#">jQuery Certificate</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#">FORUM</a>
+          <a href="#">ABOUT</a>
+          <a href="#">ACADEMY</a>
+        </div>
+        <p>
+          W3Schools is optimized for learning and training. Examples might be simplified to improve reading and
+          learning.
+          Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full
+          correctness of
+          all content. While using W3Schools, you agree to have read and accepted our <a href="#">terms of use</a>, <a
+            href="#">cookies</a> and <a href="#">privacy policy</a>.
+        </p>
+        <p class="copyright">
+          <a href="#">Copyright 1999-2026</a> by Refsnes Data. All Rights Reserved. <a href="#">W3Schools is Powered by
+            W3.CSS.</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
